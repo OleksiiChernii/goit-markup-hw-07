@@ -435,18 +435,15 @@ img {
   text-transform: uppercase;
   color: var(--primary-white);
 }
-
-.logo.link {
+.page-footer .logo.link {
   margin-right: 0;
 }
-
-.logo,
-.title {
+.page-footer .logo,
+.page-footer .title {
   display: block;
   margin-bottom: 20px;
 }
-
-.logo {
+.page-footer .logo {
   color: var(--primary-white);
 }
 
