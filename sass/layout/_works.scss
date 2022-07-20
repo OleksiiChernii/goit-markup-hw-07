@@ -1,6 +1,5 @@
 .section-works {
-    border-top: 1px solid #ececec;
-
+    
     .button {
         background-color: #F5F4FA;
         font-family: inherit;
@@ -45,6 +44,7 @@
     &__list {
         display: flex;
         flex-wrap: wrap;
+        gap: 30px;
     }
 
     &__item {
@@ -84,16 +84,6 @@
             .overlay__description {
                 transform: translateY(0);
             }
-        }
-    }
-
-    &__item{
-        &:not(:nth-child(3n)) {
-            margin-right: 30px;
-        }
-
-        &:not(:nth-last-child(-n + 3)) {
-            margin-bottom: 30px;
         }
     }
 

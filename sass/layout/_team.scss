@@ -12,6 +12,7 @@
 
     &__list {
         display: flex;
+        gap: 30px;
     }
 
     &__title {
@@ -39,9 +40,5 @@
     &__thumb {
         padding-top: 30px;
         padding-bottom: 30px;
-    }
-
-    &:not(:last-child) {
-        margin-right: 30px;
     }
 }

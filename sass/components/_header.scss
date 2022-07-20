@@ -1,6 +1,10 @@
-.header-navigation {
-    display: flex;
-    align-items: center;
+.header{
+    border-bottom: 1px solid #ececec;
+
+    &__navigation {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .navigation {

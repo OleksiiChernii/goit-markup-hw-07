@@ -20,14 +20,11 @@
 
     &__list {
         display: flex;
+        gap: 30px;
     }
 
     &__item {
         width: 270px;
-
-        &:not(:last-child){
-            margin-right: 30px;
-        }
     }
 
     &__description {

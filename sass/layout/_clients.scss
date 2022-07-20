@@ -8,10 +8,7 @@
     &__list {
         display: flex;
         justify-content: center;
-    }
-                
-    &__item:not(:last-child) {
-        margin-right: 30px;
+        gap: 30px;
     }
                 
     &__link {
