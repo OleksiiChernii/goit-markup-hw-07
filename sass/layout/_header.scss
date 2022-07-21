@@ -38,6 +38,8 @@
 
     &__list .current {
         position: relative;
+
+        color: var(--accent);
     }
 
     &__list .current::after {
